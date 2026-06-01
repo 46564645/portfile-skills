@@ -23,6 +23,10 @@ It focuses on industrial design, interaction design/UX, HCI, service design, gam
 ## Skill Structure
 
 ```text
+dist/
+├── portfolio-layout-skill.zip
+└── portfolio-layout.skill
+
 portfolio-layout/
 ├── SKILL.md
 ├── agents/
@@ -48,7 +52,20 @@ This skill is intentionally conservative about evidence:
 - It does not invent project background, author intention, school result, or design concept from screenshots.
 - It uses scraped text only as weak context because titles, tags, and marketing copy may be unreliable.
 
-## How To Install
+## Quick Use
+
+### Claude Upload
+
+If you are using Claude's skill upload page, do not upload the `portfolio-layout/` folder directly. Claude expects a `.skill`, `.zip`, or `.md` file.
+
+Use one of these files instead:
+
+- `dist/portfolio-layout-skill.zip`
+- `dist/portfolio-layout.skill`
+
+The archive root contains `SKILL.md`, `references/`, and `agents/`, so it can be uploaded directly.
+
+### Codex Local Install
 
 Clone this repository and copy the skill folder into your Codex skills directory:
 
@@ -59,6 +76,10 @@ cp -R portfile-skills/portfolio-layout ~/.codex/skills/
 ```
 
 Restart Codex or reload skills if needed.
+
+### Install From GitHub Zip
+
+You can also download this repository as a ZIP from GitHub, then upload `dist/portfolio-layout-skill.zip` to a skill uploader that accepts `.zip` files.
 
 ## Example Prompts
 
