@@ -1,0 +1,4 @@
+interface:
+  display_name: "Portfolio Layout Coach"
+  short_description: "Design portfolio layout critique and teaching"
+  default_prompt: "Use $portfolio-layout to diagnose my design portfolio page and suggest evidence-grounded layout improvements."
