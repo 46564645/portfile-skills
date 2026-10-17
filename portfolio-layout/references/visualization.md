@@ -1,77 +1,39 @@
-# Visualization
+# Visualization Advice for Portfolio Layout
 
-Use for diagrams, data, collage, image treatment, visual research pages, and turning abstract logic into readable visual structure.
+Use this for diagrams, quantitative charts, qualitative research synthesis, collages, and image/evidence arrangement. Give advice for an English-language portfolio, not a finished graphic unless the user asks for one. Explain the reasoning in the user's language if helpful, but write suggested page headings, chart titles, axis labels, and captions in English. Do not give palette or colour-matching recommendations.
 
-## Source Coverage
+## First principle: make relationships visible
 
-From Tip items 02, 04, 12, 15, 18, 20, 21, 22, 24, and 26.
+Before advising on page styling, identify the relation or data comparison the page must communicate. The relation may be within one content block or image, between a photograph and a finding, among interview themes, across time or space, between a research result and a design decision, or between project modules. Recommend a chart, diagram, table, annotated sequence, or deliberate spatial alignment when it would make that relation easier to grasp. A short sentence or side-by-side arrangement can be better than a complex chart.
 
-## Core Principle
+Read [relationship-layout.md](relationship-layout.md) when the issue is broad relationship expression, including UX, HCI, service, industrial-design, or research pages. Read [chart-selection.md](chart-selection.md) when measured values need a statistical chart. Read [visualization-case-studies.md](visualization-case-studies.md) when the user's page resembles the user-supplied tutorials or when a concrete example will improve the advice.
 
-Visuals are not proof that the designer did many things. They help the reviewer understand the point faster. First make the message clear, then make it attractive.
+## Advice workflow
 
-## Choosing a Visualization Form
+1. Say what the reader needs to understand or compare in one sentence.
+2. Separate observed data, estimates, quotations, photographs, and the designer's interpretation. Do not turn a small set of qualitative observations into unsupported percentages or causal claims.
+3. Identify a shared coordinate, such as time, location, stage, actor, or measured scale. If none exists, identify the type of relationship: hierarchy, sequence, overlap, dependency, correspondence, comparison, or feedback.
+4. Suggest the simplest appropriate form and state why it fits. Offer a second option only if its tradeoff would help the student decide.
+5. Assign each element one job: position for the key variable, labels for exact identity, annotations for insight, and photos or quotes for context that numbers cannot carry. Do not keep every source item at equal visual weight.
+6. Explain the page reading order: English insight heading → visual evidence → brief interpretation → design implication. Put captions near the evidence they explain.
+7. Check that the page does not imply false precision, false scale, unsupported causation, or completeness beyond the data. Ask for missing units, denominators, samples, or sources when needed for a reliable chart recommendation.
 
-Ask what the information is:
+## Research and process pages
 
-- A process or journey -> line, flow, timeline, path.
-- A system or ecology -> circle, loop, layered diagram.
-- Relationships or stakeholders -> network, map, node-link diagram.
-- Comparison -> columns, tiers, before/after, matrix, parallel blocks.
-- Evidence chain -> step diagram, causal chain, annotated sequence.
-- Service or multi-touchpoint experience -> service blueprint, user journey, online/offline ecosystem.
+- Use a timeline or sequence for chronology; a cycle only for a genuine recurrence; a journey map for a user's experience; and a service blueprint for visible and backstage service dependencies.
+- Use a matrix when many items must be compared on the same criteria; use a network when connection structure is the actual insight; use a hierarchy when levels or parent–child relationships matter.
+- For interviews and observations, make the path from raw evidence to themes and then design opportunity visible. A polished affinity map should reveal synthesis, not merely display many notes.
+- For mechanisms and physical prototypes, use exploded views, annotated close-ups, sectional diagrams, or before/after sequences when these reveal how a decision works.
+- For abstract concepts, use collage only when representative objects and their relationships are explained by a clear claim or annotation.
 
-Good visualization should be readable before long explanation.
+## Dense mixed-evidence pages
 
-## Six-Step Research Visualization Workflow
+The user-supplied tutorials show a useful sequence: start from the question, inventory the evidence, find a common coordinate, assign roles to variables and contextual material, set an order of attention, then remove visual elements that do not carry a distinct meaning. In one case, a daily timeline aligns vendor activity, footfall, patrol observations, photographs, and notes. In another, a spatial axis leads while bubbles, a contextual line, and field photographs have separate roles. In a historical timeline, phases and archival evidence carry the story rather than a bare row of years. See [visualization-case-studies.md](visualization-case-studies.md) for case-specific limits and source links.
 
-From the city-village sunlight project:
+## How to word a recommendation
 
-1. **Set page ratio and content area**: define size, margins, and central layout area.
-2. **Write the story**: explain the idea as if to a child: discovery -> problem -> background -> evidence -> comparison -> conclusion.
-3. **Place story blocks**: assign content blocks to a left-to-right reading order.
-4. **Refine copy and logic**: write each block's specific message and test whether the story flows.
-5. **Brainstorm visual direction**: decide what the key relationship is, then search/make matching materials.
-6. **Execute and compare**: use image treatment, color blocks, annotation, and comparison to make the conclusion visible.
+Use: `Page/position + relation the reader needs to grasp + recommended form + why it fits + exact English title/label or placement example + evidence caveat if relevant`.
 
-Example: To show sunlight pricing, use a stepped comparison, yellow sunlight blocks, grayscale rooms, price tiers, and room condition/class status labels.
+Example: `Research page: the current text lists observations from different times of day but hides their sequence. Align the observations on one time axis, place footfall and vendor activity in separate tracks, and attach photographs to the moments they document. An English heading could be “How street activity changes over a day.”`
 
-## Five-Step Material Visualization Workflow
-
-From the global plant ecology project:
-
-1. Determine page ratio, margins, and centered content area.
-2. Determine style and atmosphere, such as a green ecological tone.
-3. Visualize the left-side background: earth, forest loss, black/white image treatment, green mask, scale comparison.
-4. Visualize the right-side secondary research: city/industrial imagery, forest loss elements, smoke, causal annotations.
-5. Stitch text levels and visuals into a complete page.
-
-The practical method is to weaken unimportant image information, then use color, mask, or highlight to emphasize the main point.
-
-## Image Treatment Methods
-
-- Convert unimportant image areas to black/white or grayscale to reduce noise.
-- Use one accent color to mark the key area or evidence.
-- Use masks, overlays, extracted figures, and shadows to build atmosphere while preserving readability.
-- Use local close-ups when the point is material, mechanism, prototype, or Proof of Concept.
-
-## Collage for Abstract Concepts
-
-From item 02:
-
-- For abstract terms, first find a concrete example.
-- Extract representative objects from that example.
-- Combine objects through collage, heteromorphic similarity, cuts, lines, or contrast to express the concept.
-- Use lines, captions, or placement to connect the collage to the argument, otherwise it becomes decoration.
-
-## Data and Research Visualization
-
-- Use infographic charts for data changes and comparisons.
-- Transform user interviews, observations, and background research into maps, charts, personas, empathy maps, user journeys, affinity maps, fishbone diagrams, or problem trees when appropriate.
-- Avoid method dumping. The visualization should reveal a design opportunity or decision.
-
-## Interaction and Service Visualization
-
-- Use task flows, information architecture, wireflows, storyboard sequences, journey maps, service blueprints, online/offline ecosystem maps, and system diagrams.
-- Show both micro interaction and macro service/system relationship when the project is interaction, service, or HCI.
-- For team projects, diagrams can clarify role, process, and decision responsibility.
+The chart atlas is a search space, not a checklist of forms to put into one project. Prefer one visual that answers the page's question to several decorative graphics.

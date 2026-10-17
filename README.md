@@ -1,17 +1,20 @@
 # Portfolio Layout Coach | 作品集排版辅导 Skill
 
-`portfolio-layout` is a Codex skill for portfolio layout critique and teaching, built for design students preparing study-abroad, postgraduate, or interview portfolios.
+`portfolio-layout` is a Codex skill for advising on English-language design portfolio layout, built for students preparing study-abroad, postgraduate, or interview portfolios.
 
 It focuses on industrial design, interaction design/UX, HCI, service design, game design, digital media, and other cross-disciplinary design portfolios.
 
-这个仓库公开保存一个 Codex skill：`portfolio-layout`。它用于帮助设计专业学生分析作品集页面、学习排版方法，并从优秀案例中提炼可复用的版式模式。
+这个仓库公开保存一个 Codex skill：`portfolio-layout`。它用于帮助设计专业学生分析英文作品集页面、学习排版方法、选择适合数据和关系的图表或图解，并从优秀案例中提炼可复用的版式模式。
 
 ## What It Does
 
 - Diagnoses uploaded portfolio pages and gives page-specific layout feedback.
-- Teaches portfolio layout principles such as 信息层级, 留白, 版心, 叙事逻辑, 可视化, and project sequencing.
+- Starts with the relationships and data a page needs to communicate, including relationships within a single module.
+- Recommends suitable charts, diagrams, tables, sequences, or spatial arrangements for the evidence at hand, with chart-specific use cases and cautions.
+- Teaches portfolio layout principles such as information hierarchy, spacing, narrative, visualization, and project sequencing.
 - Helps translate strong visual examples into reusable layout patterns without copying the original cases.
 - Supports project-specific guidance for UX, HCI, industrial design, service design, social issue projects, technical prototypes, and game/interactive installations.
+- Gives advice and sample portfolio wording in English; palette and colour-matching recommendations are outside its scope.
 
 ## 适合谁使用
 
@@ -36,6 +39,9 @@ portfolio-layout/
     ├── logic-framework.md
     ├── visual-principles.md
     ├── visualization.md
+    ├── relationship-layout.md
+    ├── chart-selection.md
+    ├── visualization-case-studies.md
     ├── project-types.md
     ├── common-problems.md
     ├── case-analysis-method.md
@@ -46,6 +52,8 @@ portfolio-layout/
 
 This skill is intentionally conservative about evidence:
 
+- It checks whether a relationship or data comparison should be made visible before refining type and spacing.
+- It recommends a chart only when the data and reading task suit that chart; a short sentence or simple arrangement can be clearer.
 - It does not invent exact numbers. Numeric advice is only allowed when the source material contains that number, such as `4/8` spacing multiples, `15mm` margins, `1920 x 1080`, `1/3` and `2/3` layout division, or `60%` Development/Deliver weight.
 - It treats external portfolio screenshots as visual examples, not authoritative rules.
 - It does not store source case images.
@@ -92,15 +100,19 @@ Use $portfolio-layout to explain how to layout a research-heavy UX project page.
 ```
 
 ```text
+Use $portfolio-layout to choose a chart for these observations and explain how to place it in my portfolio page.
+```
+
+```text
 Use $portfolio-layout to extract reusable layout patterns from these portfolio examples.
 ```
 
 ## Suggested GitHub Description
 
 ```text
-Codex skill for design portfolio layout critique, teaching, and visual case-pattern extraction.
+English design portfolio layout advice with relationship-first page critique, chart selection, research visualization, and visual case studies.
 ```
 
 ## Notes
 
-The current knowledge base was distilled from portfolio-layout teaching notes and a first batch of visual case-pattern observations. The case-pattern registry records only reusable layout structures and does not include original social-media screenshots.
+The knowledge base combines portfolio-layout teaching notes, a chart-selection reference, and text-only observations of visual tutorials and case patterns. It does not include original social-media screenshots.
