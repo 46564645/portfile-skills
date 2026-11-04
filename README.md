@@ -48,9 +48,17 @@ portfolio-layout/
     ├── case-analysis-method.md
     ├── case-patterns.md
     └── case-studies/
+        ├── README.md
         ├── drone-skyforge.md
         ├── rescuepod.md
-        └── chitoloop.md
+        ├── chitoloop.md
+        ├── xhs-magician-vr.md
+        ├── xhs-nature-beating.md
+        ├── xhs-culture-dough-mixer.md
+        ├── xhs-buzz.md
+        ├── xhs-wonder-shroom.md
+        ├── xhs-their-city.md
+        └── xhs-cypherx.md
 ```
 
 ## Key Principles

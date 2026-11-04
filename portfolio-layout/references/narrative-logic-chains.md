@@ -7,6 +7,8 @@ It distils three reviewed cases, each of which has a full text description:
 - **[R]** RescuePod (flood-rescue wearable), `case-studies/rescuepod.md`
 - **[C]** CHITOLOOP (chitosan pond modules + circular service), `case-studies/chitoloop.md`
 
+Sections 8–9 add patterns from seven Xiaohongshu post cases (weaker evidence: re-cropped post images). Codes: **[MV]** magician-vr, **[NB]** nature-beating, **[CD]** culture-dough-mixer, **[BZ]** buzz, **[WS]** wonder-shroom (incomplete), **[TC]** their-city, **[CX]** cypherx; files are `case-studies/xhs-*.md`, catalogued in `case-studies/README.md`.
+
 These are observed patterns, not mandatory templates. Recommend them as directions that fit the user's problem (see `case-analysis-method.md`). `logic-framework.md` covers the macro skeleton (WHY → HOW → WHAT, Inspiration → Research → Development → Final). This file covers the sentence-level and page-level links inside that skeleton.
 
 ## Contents
@@ -17,6 +19,8 @@ These are observed patterns, not mandatory templates. Recommend them as directio
 - 5. Page archetypes: what each must contain
 - 6. Pre-ship checklist
 - 7. Common chain breaks (diagnosis cues)
+- 8. More logic patterns from XHS cases (M–T)
+- 9. Layout and visual rules from XHS cases
 
 ---
 
@@ -209,3 +213,53 @@ Copy hygiene
 | Tests only say "it works" | Flat validation | K. Layered validation + numbers |
 | Final page lists features unrelated to the research | No closure | H mapping + L closure |
 | Code screenshots nobody can read | Wrong evidence form | Module title + responsibility line, or an algorithm diagram ([D] 07, [R] 05) |
+| Research and concept use different problems | Missing pivot insight | State the one insight that turns the research problem into the concept ([TC] miss) |
+| "Testing" shows only device trials or component debugging | No test of the design itself | Add a user test of the student's own prototype + what changed ([NB], [TC], all XHS cases) |
+| Research classifies users or species, but there is one generic product | Classification unused | M. Classification → variants |
+
+---
+
+## 8. More Logic Patterns from XHS Cases (M–T)
+
+### M. Research Classification → Product Variants — [BZ]
+A classification found in research becomes the product family. [BZ]: social vs solitary bees → home / community / park scenes → three hives with one shared page template. Check: each variant traces to a class; no class is left without a variant.
+
+### N. World-View Matrix — [WS]
+For games and narrative work: rows = regions/levels, columns = fixed dimensions (core value, role of the key object, core conflict, traits), 2–4 words per cell, colour-coded through to the final pieces. It turns cultural research into design variables. Follow it with how each cell is used in rules, or the matrix is decorative ([WS] miss).
+
+### O. Cause → Feature Arrows — [CX]
+Inside a research chart, draw arrows from each cause or finding to the feature that answers it (fatigue while training → fatigue alert). Research and design meet on the same page, so the concept needs no leap.
+
+### P. Userflow → Wireframes → Hi-fi Triptych — [TC] (also [CX])
+One spread, three columns: information-architecture tree, low-fi screens linked by flow lines, hi-fi screens with one function sentence each. The reader watches structure become interface left to right. [CX] variant: motive → need → function rows linked by lettered dots to the screens, then a real-time output column.
+
+### Q. Empathy Coordinate Map — [TC]
+Replace the four-box empathy map with Think/Do × Hear/Say axes and short phrase pills placed by quadrant, closed by a numbered Conclusion. Saves space and shows clusters. The conclusion must lead to the concept.
+
+### R. Metaphor-Justification Page — [CD] (also [NB])
+When the concept rests on a metaphor or carrier (kneading dough, fast/slow water), give it its own block: literal definition → 3–4 numbered reasons from culture or theory → one conclusion bar. [NB] variant: define two opposed metaphors on page 1 and pay them off as two final states.
+
+### S. Structure-Analysis Page for Hardware — [CD] (also [BZ], [CX])
+Hero photo or render at the centre, part cards around it joined by thin leader lines; each card = part name + one input→output sentence ("By detecting pressure, the pump inflates…") + optional code. [BZ] variant: isometric line drawing with numbered notes beside the render.
+
+### T. Evidence-Bridge Patterns (smaller)
+- **Attempted Solutions** in interview cards to show why current options fail — [MV].
+- **Paired user groups** run through data, interviews, theory and persona — [MV].
+- **Interview card**: type + quantified identity (weekly hours, years abroad) + three slash keywords + one sentence — [CX], [CD].
+- **Interview conclusion by need type**: shared vs unique × direct vs indirect — [BZ].
+- **Reversal sentence**: one highlighted counter-intuitive finding (total rises, but only the kept population) — [BZ].
+- **Product-name decomposition**: NAME = cultural root + function root — [CX].
+- **Grouped HMW**: two questions per layer (motivation / medical / interaction) — [CX].
+- **Colour as narrative** in storyboards: grey → line art → colour — [TC].
+
+## 9. Layout and Visual Rules from XHS Cases
+
+1. **One dominant colour plus at most one accent, tied to the theme.** Teal for XR [TC], Klein blue [CD], dusty rose for bodies and injuries [CX], [MV], honey orange [BZ]. Use the accent only for headings, conclusions and the data that matters. [CX] showed that switching to a theme-fitting accent improved the page. (Describe the colour's role; do not recommend palettes.)
+2. **One strong visual anchor per project.** A single image that carries the argument: the knee X-ray with injury bubbles [CX], the headset-lens framing [TC], the hexagon motif [BZ], the perspective-grid tunnel [MV].
+3. **Desaturate context photos; keep colour for evidence or product.** [CX], [CD], [NB].
+4. **Collage must carry meaning.** B/W industry vs colour nature [NB]; separation and video calls [CD].
+5. **Repeat one page template across variants** so the reader learns it once ([BZ] three product pages).
+6. **Alternate dark and light spreads by role**: dark for mood/product, light for information ([WS], [CX]).
+7. **Social-post crops are not page ratios.** XHS images are re-cropped, stacked or squared; never infer page size, margins or reading order from them. Ask for the original pages.
+8. **Do not let density beat readability.** All XHS cases have unreadably small text at screen size; [CX]'s before/after versions show the fix (fewer words, one-word labels, cards).
+

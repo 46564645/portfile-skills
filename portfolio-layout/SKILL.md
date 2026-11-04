@@ -50,6 +50,7 @@ When the user uploads portfolio pages or asks for review, inspect in this order:
 5. **视觉对比**: Check size, density, straight/curved forms, text/image balance, and whether there is a clear visual focus.
 6. **结构比例**: Check whether research has been compressed into key insights and whether Development/Deliver carries at least about 60% of the project weight when appropriate.
 7. **落地细节**: Check whether prototypes, mechanisms, tests, Proof of Concept details, interaction flows, or implementation evidence are shown close enough to prove feasibility.
+8. **测试与迭代 (always check)**: Testing and iteration evidence is the stage most often missing, even in strong portfolios (none of the seven XHS cases has it). Confirm there is a test of the user's *own* design with real people, a stated result, and a change made because of it. Device trials, component debugging and projected "impact" do not count. If missing, say so explicitly and propose the smallest credible test.
 
 For each finding, provide:
 
@@ -78,7 +79,8 @@ When the user asks a principle or "how to layout X" question, first identify the
 | Analyzing excellent portfolio examples or scraped case folders | `references/case-analysis-method.md` |
 | Looking for reusable layout pattern names after case extraction | `references/case-patterns.md` |
 | Logic chains between pages, conclusion or linking sentences, concept justification, validation structure, page archetypes, pre-ship check | `references/narrative-logic-chains.md` |
-| A full worked example of an excellent project: page-by-page layout, exact copy and logic chain | `references/case-studies/drone-skyforge.md` (XR training system, 8 wide spreads), `references/case-studies/rescuepod.md` (wearable hardware, 11 pages), `references/case-studies/chitoloop.md` (material + service system, 9 pages); open only the one closest to the user's project type |
+| A full worked example of an excellent project: page-by-page layout, copy and logic chain | `references/case-studies/README.md` (catalog of 10 cases by work type and completeness), then open only the one closest to the user's project type |
+| Patterns for games/world-building, installations, product families, hardware structure pages, UX triptychs, or colour/visual-anchor rules | `references/narrative-logic-chains.md` §8–9 |
 
 Answer teaching questions with:
 
@@ -95,7 +97,7 @@ When the user provides a folder of优秀案例:
 2. For each case folder, pair images with any local txt file, but filter titles, tags, and marketing language from layout evidence.
 3. Record only observable layout features: page type, structure, hierarchy, image/text relationship, color strategy, visual focus, reading path, and reusable pattern.
 4. Save distilled patterns in `references/case-patterns.md` only after actual case review. Mark unverified patterns as hypotheses or omit them.
-5. For a case analysed in depth, write a full text description in `references/case-studies/<case>.md`, using the existing files' structure (format and visual system, every page, logic chain with verbatim linking sentences, formulas, lessons). Add new cross-case patterns to `references/narrative-logic-chains.md`, citing the case.
+5. For a case analysed in depth, write a full text description in `references/case-studies/<case>.md`, using the existing files' structure (format and visual system, every page, logic chain with verbatim linking sentences, formulas, lessons). Add new cross-case patterns to `references/narrative-logic-chains.md`, citing the case, and add the case to `references/case-studies/README.md`. Mark showcase-only cases INCOMPLETE at the top. Paraphrase source copy (short quotes only).
 6. In future diagnosis, recommend a pattern as a direction, not as a rule to copy.
 
 ## Professional Emphasis
