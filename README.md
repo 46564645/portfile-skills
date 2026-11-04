@@ -37,6 +37,7 @@ portfolio-layout/
 └── references/
     ├── basic-rules.md
     ├── logic-framework.md
+    ├── narrative-logic-chains.md
     ├── visual-principles.md
     ├── visualization.md
     ├── relationship-layout.md
@@ -45,7 +46,11 @@ portfolio-layout/
     ├── project-types.md
     ├── common-problems.md
     ├── case-analysis-method.md
-    └── case-patterns.md
+    ├── case-patterns.md
+    └── case-studies/
+        ├── drone-skyforge.md
+        ├── rescuepod.md
+        └── chitoloop.md
 ```
 
 ## Key Principles
