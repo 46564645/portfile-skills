@@ -1,7 +1,7 @@
 ---
 name: portfolio-layout
 description: |
-  Advise on English-language design portfolio layout and narrative logic for industrial design, UX, HCI, service design, game design, and interdisciplinary projects. Use when a user shares portfolio pages for critique, asks how to arrange evidence or research, needs a chart or diagram suited to their data, wants to fix how pages connect (problem → insight → concept → test → final), wants headlines or conclusion sentences rewritten, or wants layout and logic patterns from excellent cases. Prioritize relationships within and across modules, then the logic chain, hierarchy, spacing, and project-specific evidence. Give actionable advice and English portfolio wording without palette recommendations. Trigger broadly for: 作品集排版, portfolio layout, 怎么排版, 排版建议, 看一下我的作品集, 帮我看看这页, 版式, 留白, 信息层级, 可视化, 图表选择, 调研页, 逻辑链, 叙事逻辑, 页面衔接, 优秀案例, 案例分析, 小红书案例, 交互作品集, 工业设计作品集, 人机交互作品集, HCI portfolio.
+  Advise on English-language design portfolio layout and narrative logic for industrial design, UX, HCI, service design, game design, and interdisciplinary projects. Use when a user shares portfolio pages for critique, asks how to arrange evidence or research, needs a chart or diagram suited to their data, wants to fix how pages connect (problem → insight → concept → test → final), wants headlines or conclusion sentences rewritten, or wants layout and logic patterns from excellent cases, or needs to know which Flourish template to build a chart in. Prioritize relationships within and across modules, then the logic chain, hierarchy, spacing, and project-specific evidence. Give actionable advice and English portfolio wording without palette recommendations. Trigger broadly for: 作品集排版, portfolio layout, 怎么排版, 排版建议, 看一下我的作品集, 帮我看看这页, 版式, 留白, 信息层级, 可视化, 图表选择, Flourish, 用什么图, 调研页, 逻辑链, 叙事逻辑, 页面衔接, 优秀案例, 案例分析, 小红书案例, 交互作品集, 工业设计作品集, 人机交互作品集, HCI portfolio.
 ---
 
 # Portfolio Layout
@@ -15,6 +15,10 @@ Keep advice concrete, page-specific when images are provided, and grounded in th
 ## First Layout Principle: Reveal Relationships and Data
 
 Before typography, spacing, or decorative treatment, check whether the page needs to show a relationship or data comparison. “Relationship” is broad: it may connect items inside one module, a photograph to its caption, observations to themes, evidence to a claim, research to a design decision, people to touchpoints, parts to a whole, or events across time or space. If a visual form would make the relationship clearer, recommend the appropriate chart, diagram, table, annotated sequence, or spatial alignment. Do not force a chart where a short sentence or simple side-by-side layout is clearer. Read `references/visualization.md` for the decision process, then its linked atlas or cases only as needed.
+
+## Flourish Template Recommendation
+
+Charts are built in Flourish (https://flourish.studio/). Whenever you recommend a chart, diagram, or any data or relationship visualization, add one sentence that names the fitting Flourish template exactly as the template chooser shows it, plus the data shape it needs. Example: "In Flourish, use the Network graph template: Links sheet Source/Target/Value with every Value set to 1, and a Points sheet with Id and a group column." Use parent template names: for example Scatter rather than "Arrow plot", Pictogram rather than "Waffle", Hierarchy rather than "Treemap". Also mention any Flourish limit that changes the encoding, such as Sankey band and node size encoding value, no dashed links in Network graph, or image and SVG download needing a paid plan, and say what to finish in Figma. Read `references/flourish-templates.md` for the catalog, decision shortcuts, data formats, and import and export notes. If no Flourish template fits, say so and name the closest one together with what it cannot do.
 
 ## Numeric Integrity
 
@@ -74,6 +78,7 @@ When the user asks a principle or "how to layout X" question, first identify the
 | Narrative order, project logic, story structure, transforming coursework into projects | `references/logic-framework.md` |
 | Visual hierarchy, contrast, balance, information density, three-column layout | `references/visual-principles.md` |
 | Diagrams, measured data, broad visual relationships, collage, image/evidence arrangement, visual research pages | `references/visualization.md`; follow its links to `relationship-layout.md`, `chart-selection.md`, or `visualization-case-studies.md` only as needed |
+| Which Flourish template to build a chart in, its data format, import or export limits | `references/flourish-templates.md` |
 | Interaction, UX, HCI, industrial design, social issue, technical, game, service, top-school strategies | `references/project-types.md` |
 | Common layout mistakes, diagnosis checklists, text-heavy pages, structure imbalance | `references/common-problems.md` |
 | Analyzing excellent portfolio examples or scraped case folders | `references/case-analysis-method.md` |

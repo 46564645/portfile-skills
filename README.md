@@ -11,6 +11,7 @@ It focuses on industrial design, interaction design/UX, HCI, service design, gam
 - Diagnoses uploaded portfolio pages and gives page-specific layout feedback.
 - Starts with the relationships and data a page needs to communicate, including relationships within a single module.
 - Recommends suitable charts, diagrams, tables, sequences, or spatial arrangements for the evidence at hand, with chart-specific use cases and cautions.
+- Names the Flourish template to build a recommended chart in, including the data shape it needs, using `references/flourish-templates.md`.
 - Teaches portfolio layout principles such as information hierarchy, spacing, narrative, visualization, and project sequencing.
 - Helps translate strong visual examples into reusable layout patterns without copying the original cases.
 - Supports project-specific guidance for UX, HCI, industrial design, service design, social issue projects, technical prototypes, and game/interactive installations.
@@ -43,6 +44,7 @@ portfolio-layout/
     ├── relationship-layout.md
     ├── chart-selection.md
     ├── visualization-case-studies.md
+    ├── flourish-templates.md
     ├── project-types.md
     ├── common-problems.md
     ├── case-analysis-method.md
